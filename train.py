@@ -25,7 +25,7 @@ if __name__ == "__main__":
     DISCOUNT_FACTOR = 0.99
     # States refer to a couple of preprocessed frames
     FRAME_SKIP = 4
-    STATES_SIZE = np.uint8(FRAME_SKIP / 2)
+    STATES_SIZE = 4
     ASYNC_UPDATE = 5
     SAVER_PATH = './models/{}/'.format(GAME)
     LOGGER_PATH = './logs/{}/'.format(GAME)
