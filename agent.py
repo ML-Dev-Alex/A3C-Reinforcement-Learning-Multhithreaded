@@ -35,9 +35,7 @@ class Agent:
 
                 # There are some issues when taking the log of the policy when it is exactly 1 or 0
                 min_policy = 1e-8
-                # Setting max policy to 0.9 essentially caps the minimum exploration rate to 0.1
-                #  ( A3C paper uses multiple exploration values, but I decided to use only 1 for simplicity )
-                max_policy = 0.9
+                max_policy = 1-min_policy
                 # log policy is the expected log probability of arriving in the current states
                 self.log_policy = tf.log(tf.clip_by_value(self.policy, min_policy, max_policy))
 
