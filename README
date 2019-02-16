@@ -1,4 +1,3 @@
+# A3C implementation on tensorflow
 
-A3C implementation on tensorflow
-
-![Trained model](https://github.com/ML-Dev-Alex/a3c/blob/master/trainedGif.gif)
+![](trainedGif.gif)
