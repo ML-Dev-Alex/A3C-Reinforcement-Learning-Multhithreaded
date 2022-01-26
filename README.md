@@ -6,4 +6,9 @@ Deep Reinforcement Learning multi-threaded.
 
 An algorithm which uses information from millions of pixels being streamed into Convolutional Neural Networks, that are then used to teach multiple virtual agents to play Atari games autonomously.
 
-![](trainedGif.gif)
+
+<p align="center">
+  <img width="800" src="trainedGif.fig">
+</p>
+
+<!-- ![](trainedGif.gif) -->
