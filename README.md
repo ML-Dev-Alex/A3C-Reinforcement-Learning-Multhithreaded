@@ -8,7 +8,7 @@ An algorithm which uses information from millions of pixels being streamed into 
 
 
 <p align="center">
-  <img width="800" src="trainedGif.fig">
+  <img width="400" src="trainedGif.gif">
 </p>
 
 <!-- ![](trainedGif.gif) -->
